@@ -19,7 +19,7 @@ public class TitikController : MonoBehaviour
     }
 
 
-    //Menggerakan bola
+    //Menggerakan objek
     void PushTitik()
     {
         float InitialForce = Random.Range(-yInitialForce, yInitialForce);
@@ -27,7 +27,7 @@ public class TitikController : MonoBehaviour
         float randomDirection = Random.Range(0, 2);
         if(randomDirection < 0.1f)
         {
-            // Gunakan gaya untuk menggerakkan bola ini.
+            
             rigidBody2D.AddForce(new Vector2(-xInitialForce, -yInitialForce));
         }
         else

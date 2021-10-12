@@ -19,8 +19,7 @@ public class MovementController : MonoBehaviour
     private Rigidbody2D rigidbody2D;
 
     
-   
-
+ 
     
     void Start()
     {
