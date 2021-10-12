@@ -1,0 +1,1 @@
+Memunculkan objek
